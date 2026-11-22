@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portofolio Flavian Lintang F</title>
+</head>
+<body>
+
+  <!-- 1. Semantic Tags: header + nav -->
+  <header>
+    <h1>Portofolio Flavian Lintang F</h1>
+    <nav>
+      <ul>
+        <li><a href="#hero">Beranda</a></li>
+        <li><a href="#about">Tentang Saya</a></li>
+        <li><a href="#skill">Skill</a></li>
+        <li><a href="#kontak">Kontak</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- 2. Hero Section: Nama, Tagline, Foto Profil -->
+    <section id="hero">
+      <img src="foto.jpg" alt="Foto profil Nama Kamu" width="200">
+      <h2>Flavian Lintang Fadlurahman</h2>
+      <p>Future Web Developer yang suka belajar hal baru</p>
+    </section>
+
+    <!-- 3. About Section -->
+    <section id="about">
+      <h2>Tentang Saya</h2>
+      <p>
+        Halo, saya Flavian Lintang bisa di panggil vian. Saya sedang belajar web development di
+        Tech Class HITLAB 2026 karena ingin membuat website sendiri dan
+        memperdalam skill saya di bidang teknologi.
+      </p>
+    </section>
+
+    <!-- 4. Tabel Skill -->
+    <section id="skill">
+      <h2>Skill</h2>
+      <table border="1" cellpadding="8" cellspacing="0">
+        <thead>
+          <tr>
+            <th>No</th>
+            <th>Nama Skill</th>
+            <th>Tingkat Kemahiran</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>HTML</td>
+            <td>Basic</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>Java</td>
+            <td>Basic</td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>Design Graphiic</td>
+            <td>Intermediate</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <!-- 5. Form Kontak -->
+    <section id="kontak">
+      <h2>Hubungi Saya</h2>
+      <form action="#" method="post">
+        <p>
+          <label for="nama">Nama:</label><br>
+          <input type="text" id="nama" name="nama" required>
+        </p>
+        <p>
+          <label for="email">Email:</label><br>
+          <input type="email" id="email" name="email" required>
+        </p>
+        <p>
+          <label for="pesan">Pesan:</label><br>
+          <textarea id="pesan" name="pesan" rows="5" cols="40" required></textarea>
+        </p>
+        <button type="submit">Submit</button>
+      </form>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Flavian Lintang Fadlurahman. Tech Class Web Dev 2026.</p>
+  </footer>
+
+</body>
+</html>
